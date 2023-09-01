@@ -1,9 +1,318 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T07:59:28.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.7.1" etag="VKFJM_PXuixe-Rruzh6I" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-01T08:35:55.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="KAZAEyyrhWfYEAvpwXTz" version="21.7.1" type="github">
   <diagram name="Page-1" id="unNvHdALOiAXsckAduaN">
-    <mxGraphModel>
+    <mxGraphModel dx="1397" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-1" value="Where are these servers?&lt;br&gt;&lt;br&gt;- They may be provisioned at their own data centers.&lt;br&gt;- Cloud services like Amazon EC2, Google Compute Engine, Azure VM&#39;s - idea is to rent it for as long as you need. Additionally, it allows you to provision in different locations and different data centers - thus allowing control over redundancy.&lt;br&gt;- Serverless servers(Amazon Lambda - (you give your code, and they figure out where to run it), &lt;br&gt;Kinesis - (handles streaming data from one point to another), Athena - (data warehouse product) - hey bill you by how much transaction; how much you use the service. Dont have to think about the system architecture&lt;br&gt;&lt;br&gt;&lt;br&gt;Scaling Database&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-960" width="560" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-2" value="Failover servers: Cold Standby" style="text;strokeColor=#666666;align=center;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-820" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="336.27" y="-694.55" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="365.49" y="-700" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-580" width="86.54" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-6" value="HTTP server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.2699999999999" y="-490" width="73.22" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340.5899999999999" y="-630" width="36.36" height="29.1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-8" value="Internet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="386.27" y="-625.45" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-9" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.27" y="-470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325.43" y="-378" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-11" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.27" y="-330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360.43" y="-390" as="sourcePoint" />
+            <mxPoint x="360.59" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.tape_storage;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-330" width="75" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-310" as="sourcePoint" />
+            <mxPoint x="180" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-17" value="Periodic Backup" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-18" value="&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;- There is a periodic backup to a storage system&lt;/div&gt;&lt;div&gt;- When DB goes down, we have data backed up ready to take its place&lt;/div&gt;&lt;div&gt;- Has a certain downtime, may cause data to be loss&lt;/div&gt;&lt;div&gt;- Upside - its cheap&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535.43" y="-870" width="294.57" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-19" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="815.4300000000001" y="-390" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-20" value="If DB goes down" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916.27" y="-342" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.tape_storage;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="-311" width="75" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="-291" as="sourcePoint" />
+            <mxPoint x="650" y="-291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-23" value="Periodic Backup" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-362" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-372" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="826.27" y="-745" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-26" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="855.49" y="-750.45" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-27" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-630.45" width="86.54" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-28" value="HTTP server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916.27" y="-540.45" width="73.22" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-29" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830.5899999999999" y="-680.45" width="36.36" height="29.1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-30" value="Internet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="876.27" y="-675.9000000000001" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-31" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="916.27" y="-520.45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="_e-RfeQCi61L1U4X5NS0-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="-372" as="sourcePoint" />
+            <mxPoint x="610" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-34" value="New DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-372" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="-180" as="sourcePoint" />
+            <mxPoint x="530" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-37" value="Failover servers: Warm Standby" style="text;strokeColor=#666666;align=center;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-38" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="336.27" y="105.45000000000005" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-39" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="365.49" y="100" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-40" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="86.54" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-41" value="HTTP server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.2699999999999" y="310" width="73.22" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-42" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340.5899999999999" y="170" width="36.36" height="29.1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-43" value="Internet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="386.27" y="174.54999999999995" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-44" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.27" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-45" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325.43" y="422" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-46" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.27" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-47" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360.43" y="410" as="sourcePoint" />
+            <mxPoint x="360.59" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="490" as="sourcePoint" />
+            <mxPoint x="180" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-50" value="Replication" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-66" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="620" as="sourcePoint" />
+            <mxPoint x="530" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-67" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="428" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-68" value="&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;- We have DB replication - constantly copying data from primary DB host to a backup DB host&lt;/div&gt;&lt;div&gt;- 2nd database is always warm - always has a copy of the database&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Downtime is very minimal&lt;/div&gt;&lt;div&gt;- It still is vertical scaling - limited by how much traffic a single host can provide&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="536.02" y="-4.549999999999997" width="294.57" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="900.3" y="105.45000000000005" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-70" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="929.52" y="100" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-71" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="884.03" y="220" width="86.54" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-72" value="HTTP server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990.3" y="310" width="73.22" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-73" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="904.6199999999999" y="170" width="36.36" height="29.1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-74" value="Internet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950.3" y="174.54999999999995" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-75" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990.3" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-76" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="889.46" y="422" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-77" value="If DB goes down" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990.3" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-78" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="420" as="sourcePoint" />
+            <mxPoint x="924.6199999999999" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="874.03" y="490" as="sourcePoint" />
+            <mxPoint x="744.03" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-80" value="Replication" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="784.03" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="634.03" y="428" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-82" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="884.03" y="442" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-83" value="Failover servers: Hot Standby" style="text;strokeColor=#666666;align=center;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="286.78" y="840" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-84" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="323.04999999999995" y="965.45" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-85" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="352.27" y="960" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-86" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="306.78" y="1080" width="86.54" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-87" value="HTTP server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="413.0499999999999" y="1170" width="73.22" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-88" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="327.3699999999999" y="1030" width="36.36" height="29.1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-89" value="Internet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="373.04999999999995" y="1034.55" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-90" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="413.04999999999995" y="1190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-91" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="312.21" y="1282" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-92" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="413.04999999999995" y="1330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-93" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="347.21" y="1270" as="sourcePoint" />
+            <mxPoint x="347.36999999999995" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-94" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297" y="1200" as="sourcePoint" />
+            <mxPoint x="140" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-96" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="516.78" y="1480" as="sourcePoint" />
+            <mxPoint x="516.78" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-97" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="56.78" y="1288" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-98" value="&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;- We have another DB where we write data simultaneously from web server to every DB instance.&lt;/div&gt;&lt;div&gt;- if the host goes down, just start using the hot standby DB&lt;/div&gt;&lt;div&gt;- Close to a horizontal scaling as we can read simultaneously&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522.8" y="855.45" width="294.57" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-99" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="887.0799999999999" y="965.45" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-100" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="916.3" y="960" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-101" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="870.81" y="1080" width="86.54" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-102" value="HTTP server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="977.0799999999999" y="1170" width="73.22" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-103" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="891.3999999999999" y="1030" width="36.36" height="29.1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-104" value="Internet" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="937.0799999999999" y="1034.55" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-105" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="977.0799999999999" y="1190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-106" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="876.24" y="1282" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-107" value="If DB goes down" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="977.0799999999999" y="1330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-108" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706.78" y="1280" as="sourcePoint" />
+            <mxPoint x="911.3999999999999" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-111" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620.81" y="1288" width="80" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="_e-RfeQCi61L1U4X5NS0-112" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="870.81" y="1302" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
