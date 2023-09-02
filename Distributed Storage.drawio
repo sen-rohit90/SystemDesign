@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T05:51:43.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.7.1" etag="xqyAearv_SAJ7aemJTsu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T13:18:15.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="ML1pbhpzdtfwXeG15imV" version="21.7.1" type="github">
   <diagram name="Page-1" id="r2mzMv5zOYbgub9G91gK">
-    <mxGraphModel>
+    <mxGraphModel dx="1685" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T43FgMYuAAcaTmdKX10t-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T43FgMYuAAcaTmdKX10t-14" target="T43FgMYuAAcaTmdKX10t-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="690" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-1" value="Distributed Storage" style="text;strokeColor=#666666;align=center;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-2" value="- if you have massive amount of data, you need to put it somewhere - this needs a distributed storage solution&lt;br&gt;- Service which is scalable, available, secure, fast,&amp;nbsp;&lt;br&gt;- use cases, data lakes, websites, backups, big data&lt;br&gt;- highly durable&lt;br&gt;- Amazon S3 offers 99.999999999 % durability&amp;nbsp;&lt;br&gt;a. Pay as you go&lt;br&gt;b. Diff tiers, ie Glacier for archiving whihc is cheap, but harder to read from&lt;br&gt;c. Hot/cool/cold storage (Glacier is cold storage)&lt;br&gt;&lt;br&gt;- Google Cloud&lt;br&gt;- Azure&lt;br&gt;- Hadoop HDFS" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-3" value="Distributed Storage: HDFS architecture - an example" style="text;strokeColor=#666666;align=center;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T43FgMYuAAcaTmdKX10t-4" target="T43FgMYuAAcaTmdKX10t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T43FgMYuAAcaTmdKX10t-4" target="T43FgMYuAAcaTmdKX10t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-4" value="Client" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T43FgMYuAAcaTmdKX10t-5" target="T43FgMYuAAcaTmdKX10t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-5" value="Name node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-6" value="Data node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-7" value="Data node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-8" value="Data node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-9" value="Metadata&lt;br&gt;(name, replicas, locations)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="520" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-10" value="Data node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="710" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-11" value="Data node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T43FgMYuAAcaTmdKX10t-18" value="Features&lt;br&gt;- Open source system&lt;br&gt;- Files are broken up into &quot;blocks&quot; replicated across your cluster&lt;br&gt;- Replication is rack aware&lt;br&gt;- A master name node co-ordinates all operations&lt;br&gt;- Clients try to read from nearest replica&lt;br&gt;- Writes get replicated across different racks&lt;br&gt;- For high availablility, there will be 3 or more nodes to fall back on, and a highly available data store for metadata" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="640" width="230" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
