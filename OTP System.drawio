@@ -1,9 +1,204 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T12:58:38.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.7.2" etag="j9fUl17iQx5GNrsxTs0x" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T13:39:55.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="bFEFg_oWIJmsPaBtvX6C" version="21.7.2" type="github">
   <diagram name="Page-1" id="zjjdduOIbjPhfv-XI0oR">
-    <mxGraphModel>
+    <mxGraphModel dx="2247" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-1" value="Design a OTP System" style="text;strokeColor=#666666;align=center;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-2" value="1. Functional Requirement&lt;br&gt;2. Non-functional requirements" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-3" value="Step 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-4" value="Functional&lt;br&gt;-&amp;nbsp;Generate OTPs securely.&lt;div&gt;- Send OTPs to users via a preferred channel (e.g., SMS, email, or mobile app).&lt;/div&gt;&lt;div&gt;- Validate OTPs provided by users.&lt;/div&gt;&lt;div&gt;- Implement security features to prevent misuse or fraud.&lt;/div&gt;&lt;div&gt;- Allow OTP expiration and single-use functionality.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-5" value="Non-Functional&lt;br&gt;-&amp;nbsp;Security: High security standards to prevent unauthorized access.&lt;div&gt;- Scalability: The system should handle a large number of requests.&lt;/div&gt;&lt;div&gt;- Availability: Ensure system availability to prevent service disruptions.&lt;/div&gt;&lt;div&gt;- Performance: Generate and validate OTPs with minimal latency.&lt;/div&gt;&lt;div&gt;- Compliance: Comply with data protection and privacy regulations.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="180" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-6" value="3 Explore what API&#39;s the system would need" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-7" value="Step 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-8" value="&lt;div&gt;- Generate OTP API: To create and send OTPs to users.&lt;/div&gt;&lt;div&gt;- Validate OTP API: To verify OTPs provided by users.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="580" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-9" value="4 Touch base on the data schema to arrive at which DB to use?" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-10" value="Step 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-11" value="&lt;div&gt;1. Users Table:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This table stores information about registered users.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;users&lt;/div&gt;&lt;div&gt;+----+-----------+------------+&lt;/div&gt;&lt;div&gt;| ID | Username&amp;nbsp; | Other Data |&lt;/div&gt;&lt;div&gt;+----+-----------+------------+&lt;/div&gt;&lt;div&gt;| 1&amp;nbsp; | user123&amp;nbsp; &amp;nbsp;| ...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;| 2&amp;nbsp; | user456&amp;nbsp; &amp;nbsp;| ...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+----+-----------+------------+&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1020" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-12" value="&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;2. OTPs Table:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;This table stores generated OTPs and their associated metadata.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;otps&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;+----+---------+--------------+---------------------+---------------------+&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;| ID | User_ID | OTP&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | Expiration_Time&amp;nbsp; &amp;nbsp; &amp;nbsp;| Created_Time&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;+----+---------+--------------+---------------------+---------------------+&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;| 1&amp;nbsp; | 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 123456&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 2023-09-07 12:00:00 | 2023-09-07 11:55:00 |&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;| 2&amp;nbsp; | 2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 987654&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 2023-09-07 12:15:00 | 2023-09-07 12:10:00 |&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;+----+---------+--------------+---------------------+---------------------+&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1030" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-14" value="&lt;div&gt;3. User-Specific Data Table:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If your application requires additional user-specific data, you may have a table for it.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;user_data&lt;/div&gt;&lt;div&gt;+----+---------+--------------+&lt;/div&gt;&lt;div&gt;| ID | User_ID | Data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;+----+---------+--------------+&lt;/div&gt;&lt;div&gt;| 1&amp;nbsp; | 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| ...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;| 2&amp;nbsp; | 2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| ...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+----+---------+--------------+&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1030" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1190" as="sourcePoint" />
+            <mxPoint x="390" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-16" value="Index USer_ID for faster retreval" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-17" value="Implement logic to clean up expired OTPs from the &quot;otps&quot; table regularly to prevent unnecessary database growth." style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1170" as="sourcePoint" />
+            <mxPoint x="550" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-19" value="Step 4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-20" value="4 arrive at which DB to use?&lt;br&gt;- Use a relational database (e.g., PostgreSQL, MySQL) or NoSQL database (e.g., MongoDB) to store user data, OTPs, and related information. The choice depends on your specific needs and &lt;b&gt;scalability &lt;/b&gt;requirements.&lt;br&gt;-&amp;nbsp;Optimize the database for read-heavy operations, as OTP validation is frequent.&lt;div&gt;- Use indexing for fast retrieval of OTP records.&lt;/div&gt;&lt;div&gt;- Implement caching mechanisms (e.g., Redis) to reduce database load.&lt;/div&gt;&lt;div&gt;- Periodically clean up expired OTP records to manage database size.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1460" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-21" value="Step 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-22" value="Assess Traffic Load&lt;br&gt;- How many users?&lt;br&gt;- How may OTP generations per minute?&lt;br&gt;This will let you know to use a load balanced OTP generation to balance traffic" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1850" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-23" value="Step 6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-24" value="Identify network protocols&lt;br&gt;- HTTPS for transferring OTP through the network&lt;br&gt;- SMTP to send SMS&#39;s" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2100" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-25" value="Step 6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="2290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-26" value="Technical Implementation:&amp;nbsp;&lt;br&gt;-&amp;nbsp;OTP Generation:&lt;div&gt;1. Use a strong random number generator to create OTPs.&lt;/div&gt;&lt;div&gt;2. Set an expiration time for OTPs (e.g., 5 minutes).&lt;/div&gt;&lt;div&gt;3. Store the OTP along with the user&#39;s identifier in the database.&lt;/div&gt;&lt;div&gt;4. Send the OTP to the user&#39;s preferred channel (e.g., email, SMS)&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;OTP Validation:&lt;/div&gt;&lt;div&gt;1. User enters OTP.&lt;/div&gt;&lt;div&gt;2. Retrieve the stored OTP and related information from the database.&lt;/div&gt;&lt;div&gt;3. Check if the OTP matches and hasn&#39;t expired.&lt;/div&gt;&lt;div&gt;4. Invalidate the OTP after successful validation to prevent reuse.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- for SMS Gateway&lt;/div&gt;&lt;div&gt;1. Choose a reliable SMS gateway integration like Twilio - should have error handling and delivery failures options&lt;/div&gt;&lt;div&gt;2. Integrate a message Queue System like Apache Kafka to manage SMS sending asynchronously&lt;/div&gt;&lt;div&gt;3. Ensure Backup and Redundancy by having multiple instances of SMS gateway&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2300" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-27" value="Step 7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-5;" vertex="1" parent="1">
+          <mxGeometry y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-28" value="Final Diagram" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2610" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-29" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="282.44000000000005" y="2770" width="37.56" height="50.9" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-30" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="217.44000000000003" y="2772.45" width="30" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-31" value="All users" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="246.22" y="2730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-32" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="115" y="3000" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-33" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="230" y="3000" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-34" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3000" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-35" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.network_load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="2920" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="AqhTQObQEV2LdB_O8yc8-35" target="AqhTQObQEV2LdB_O8yc8-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.92000000000002" y="2970" as="sourcePoint" />
+            <mxPoint x="109.92000000000002" y="2990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="AqhTQObQEV2LdB_O8yc8-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222.92000000000002" y="2958" as="sourcePoint" />
+            <mxPoint x="119.92000000000002" y="3000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="AqhTQObQEV2LdB_O8yc8-35" target="AqhTQObQEV2LdB_O8yc8-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="232.92000000000002" y="2968" as="sourcePoint" />
+            <mxPoint x="204.92000000000002" y="3013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-39" value="Load Balancer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2925" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-40" value="OTP Generation Services" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="3024" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-43" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="223.72" y="3270" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-44" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306.22" y="3305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-45" value="Mechached/ Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="61.22" y="3190" width="398.78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-48" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2818.45" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-49" value="OTP Validator Service" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="2870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-50" value="" style="endArrow=none;html=1;rounded=0;exitX=0.476;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AqhTQObQEV2LdB_O8yc8-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="3160" as="sourcePoint" />
+            <mxPoint x="250" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="3190" as="sourcePoint" />
+            <mxPoint x="760" y="2910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-52" value="POST: TOKEN" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="3130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-53" value="GET: TOKEN" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-55" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2920" width="45" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-56" value="SMTP Service" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.476;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="3010" as="sourcePoint" />
+            <mxPoint x="530" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="2920" as="sourcePoint" />
+            <mxPoint x="350" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="2840" as="sourcePoint" />
+            <mxPoint x="230" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AqhTQObQEV2LdB_O8yc8-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="2840" as="sourcePoint" />
+            <mxPoint x="690" y="2840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
