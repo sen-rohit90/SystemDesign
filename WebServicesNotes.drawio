@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T14:20:03.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="-ZWvbJnqUITqK-BLBk5P" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T19:04:51.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="3rsRZPLXxCoy-Z24MIXU" version="22.0.4" type="github">
   <diagram name="Page-1" id="WWJ22Lxd-hs1uwAxfYas">
     <mxGraphModel dx="1158" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
         <mxCell id="zBLNmL5X6XbydqEjEo2X-18" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="305" y="430" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zBLNmL5X6XbydqEjEo2X-19" value="Web Service Groups&lt;br&gt;SOAP : Simple Object Access Protocol, &lt;br&gt;- It provides a format, no restrictions&lt;br&gt;- it defines a specific way of building a webservice&lt;br&gt;- We use XML as the request exchange format&lt;br&gt;- Structure is Envelope - which contains Header and Body&lt;br&gt;- Transport over HTTP or MQ&lt;br&gt;- ServiceDefinition is done using WSDL - Web Service Definition Language" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-19" value="Web Service Groups&lt;br&gt;SOAP : Simple Object Access Protocol, &lt;br&gt;- It provides a format, no restrictions&lt;br&gt;- it defines a specific way of building a webservice&lt;br&gt;- We use XML as the request exchange format&lt;br&gt;- Structure is Envelope - which contains Header and Body&lt;br&gt;- Transport over HTTP or MQ&lt;br&gt;- ServiceDefinition is done using WSDL - Web Service Definition Language" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="80" y="520" width="290" height="170" as="geometry" />
         </mxCell>
         <mxCell id="zBLNmL5X6XbydqEjEo2X-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -115,6 +115,24 @@
         </mxCell>
         <mxCell id="zBLNmL5X6XbydqEjEo2X-30" value="Response Structure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-35" value="SOAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="480" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-36" value="REST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="760" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-37" value="REST&lt;br&gt;- Representational State Transfer&lt;br&gt;- Request and Response are in format already defined in HTTP - Hyper Text Transfer Protocol&lt;br&gt;- For eg, user opens a URL doing a HTTP GET request and gets a HTTP response containing the HTML&lt;br&gt;- HTTP methods like GET, PUT, POST&lt;br&gt;- HTTP Status Codes like 200, 404&lt;br&gt;- A resource would have a&amp;nbsp; URI for consumption&lt;br&gt;a. /rest/v1/users&lt;br&gt;b. /rest/v1/groups&lt;br&gt;- What resources are available is key in REST API, think in terms of resources always&amp;nbsp;&lt;br&gt;- Resource can have XML, HTML, JSON&lt;br&gt;- Data exchange format - no restriction, JSON is most popular&lt;br&gt;- Transport is only HTTP&lt;br&gt;- Service Definition has no standard. May use WADL / Swagger" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="810" width="430" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-38" value="Exercise : Build REST endpoint to be consumed by an IGA product like SailPoint for aggregation and provisioning&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1150" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-39" value="Functional Requirements&lt;br&gt;- Host REST end-points to perform CRUD user and groups, to assign / remove groups to a user&lt;br&gt;- These end-point will be consumed by SailPoint IIQ&lt;br&gt;- Pagination&amp;nbsp;&lt;br&gt;- IIQ only supports JSON response&lt;br&gt;- Resource Service must be accessible&lt;br&gt;- Admin permissions required to execute RESTful Web Serivces API&lt;br&gt;- Base URL&lt;br&gt;- Auth Type OauthLogin (a bearer token using the Bearer header)&lt;br&gt;- Access Token&lt;br&gt;- What schema attribute for Account Enable status?&lt;br&gt;id, displayName, emails, enabled, userName, level&lt;br&gt;- Request Timeout&amp;nbsp;&lt;br&gt;- Enable Feature supporting GET and then PUT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1240" width="310" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-40" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Technical Implementation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The architecture pattern to consider is &quot;Controller-Service-Repository&quot; design pattern, which is a common design pattern used in Spring-based applications.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In this pattern:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Controllers are responsible for handling incoming HTTP requests and returning HTTP responses. They act as the entry point to your API and route requests to appropriate service methods.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Services encapsulate the business logic and interact with repositories or other data sources. They handle the application&#39;s core functionality.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Repositories provide a way to interact with the database or other data storage mechanisms.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1580" width="460" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
