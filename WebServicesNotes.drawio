@@ -1,9 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T13:52:26.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" version="22.0.4" etag="Kle4W4UPfamKhynk2b8a" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T14:20:03.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="-ZWvbJnqUITqK-BLBk5P" version="22.0.4" type="github">
   <diagram name="Page-1" id="WWJ22Lxd-hs1uwAxfYas">
-    <mxGraphModel>
+    <mxGraphModel dx="1158" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-1" value="What are WebServices ?&lt;br&gt;- Designed for machine to machine (app to app) interaction&lt;br&gt;- Should be inter-operable - not platform dependent&lt;br&gt;- And over a network" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-3" target="zBLNmL5X6XbydqEjEo2X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-3" value="Java App" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-4" target="zBLNmL5X6XbydqEjEo2X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-4" value="Node js App" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-5" value=".net app" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-6" target="zBLNmL5X6XbydqEjEo2X-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-6" value="HTTP &lt;br&gt;GET url/rest/v1/users" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="135" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-10" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="830" y="170" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;How it works?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Any platform independent app makes a REQUEST to the WebService&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- WebService responds with RESPONSE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Request and Response should be platform - independent. eg XML, JSON&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Apps need to know the format of the Request - achieved through Service Definition&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Service Definition specifies Reqest and Response Format, their structure and Endpoint&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Transport like HTTP or MQ (Message Queue) to specify how the data is transferred&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="295" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-13" value="Client or Service Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-14" value="Service Provider or Server or Webservice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.852;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.112;entryY=-0.069;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-13" target="zBLNmL5X6XbydqEjEo2X-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.938;entryY=1.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-14" target="zBLNmL5X6XbydqEjEo2X-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="450" as="sourcePoint" />
+            <mxPoint x="170" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="348" y="431" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-17" value="Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-18" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-19" value="Web Service Groups&lt;br&gt;SOAP : Simple Object Access Protocol, &lt;br&gt;- It provides a format, no restrictions&lt;br&gt;- it defines a specific way of building a webservice&lt;br&gt;- We use XML as the request exchange format&lt;br&gt;- Structure is Envelope - which contains Header and Body&lt;br&gt;- Transport over HTTP or MQ&lt;br&gt;- ServiceDefinition is done using WSDL - Web Service Definition Language" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="520" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-22" value="SOAP-ENV: Envelope" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-24" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="570" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-25" value="Body" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="600" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-26" target="zBLNmL5X6XbydqEjEo2X-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="605" />
+              <mxPoint x="725" y="532" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-26" target="zBLNmL5X6XbydqEjEo2X-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-26" target="zBLNmL5X6XbydqEjEo2X-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zBLNmL5X6XbydqEjEo2X-26" target="zBLNmL5X6XbydqEjEo2X-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-26" value="WSDL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-27" value="Endpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-28" value="All operations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-29" value="Request Structure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBLNmL5X6XbydqEjEo2X-30" value="Response Structure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
