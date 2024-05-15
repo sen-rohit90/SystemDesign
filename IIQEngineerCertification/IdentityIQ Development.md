@@ -284,6 +284,8 @@ You should never interact with IdentityIQ’s database directly – only through
 Just like you’d find in other object-oriented applications, IdentityIQ’s objects include get and set methods for accessing and modifying object properties.
 
 [Modifying IIQ Data](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/Hibernate.JPG)
+![Modifying IIQ Data](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/Hibernate.JPG)
+
 ## Extending Objects
 Many of the objects in the IdentityIQ object model, inherit from a parent object called SailPointObject, including all top-level objects in the persistent store – that is, any object you can see in the Debug Pages Object Browser or can retrieve in the IdentityIQ Console.
 Through SailPointObject’s support for extended attributes, any of those objects can record additional information specific to your business. They can be extended using placeholders or named attributes. By default, these attributes are stored in the database in a CLOB, a Character Large Object.
@@ -349,7 +351,7 @@ Finally, the SailPoint tools package contains a **Utils** class which houses man
 
 #### IMPORTANT - Read Object Model and Usage Whitepaper
 ### Quiz
-When you need to access data stored in IdentityIQ’s database in your rule and script extensions, you will write SQL statements to query the tables that hold the data.
+**When you need to access data stored in IdentityIQ’s database in your rule and script extensions, you will write SQL statements to query the tables that hold the data.**
 
 True
 
@@ -361,7 +363,7 @@ Correctly selected
 
 SUBMIT
 
-Which of these methods is helpful for viewing the full contents of any SailPointObject and is often used in the development for debugging purposes?
+**Which of these methods is helpful for viewing the full contents of any SailPointObject and is often used in the development for debugging purposes?**
 
 getAllAttributes()
 
@@ -626,7 +628,7 @@ In cases where your provisioning policy prompts a user for an attribute value in
 
 **Quiz**
 
-A creation rule can be used with which process?
+**A creation rule can be used with which process?**
 
 Certification
 
@@ -648,7 +650,7 @@ Correct
 
 TAKE AGAIN
 
-An escalation rule can be used with which process?
+**An escalation rule can be used with which process?**
 
 Aggregation
 
@@ -676,19 +678,19 @@ Correct
 
 This log variable is the passed to all rules in the application. So, if you set your Log4j properties to log at the debug level for one rule, it will log at the debug level for all rules when you use that log argument. A useful alternative, also a best practice, is to create custom loggers in your rules.
 
-![1 - Create Logger Object.png](![](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/log4j_1.png))
+![Create Logger Object](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/log4j_1.png)
 
   
 
 First, create a logger object in the rule or script, specifying a name that reflects a standard naming convention for your installation and doesn’t conflict with the SailPoint namespace. This example uses "acme.rule.FinanceCorrelationRule" as a unique name.
 
-![2 - Modify Config for Logging.png]([SystemDesign/IIQEngineerCertification/img/log4j_2.png at main · sen-rohit90/SystemDesign (github.com)](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/log4j_2.png))
+![Specify Log Level](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/log4j_2.png)
 
 Next, in the Log4j properties file, use that same name to specify the log level for the rule. In Log4j2, this requires two lines in the properties file – one to specify the logger name and one to specify the log level. When not actively debugging the code, the logger can be set to error or warn.
 
   
 
-![3 - Include Trace.png]([SystemDesign/IIQEngineerCertification/img/log4j_3.png at main · sen-rohit90/SystemDesign (github.com)](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/log4j_3.png))
+![Include Trace](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/log4j_3.png)
 
 Optionally, when writing large or complex rules, you can proactively include trace statements every few lines. These trace statements won’t normally appear in your log file because your logger won’t usually be set that high, but when you need to track to isolate where problems are occurring in your rule, you can increase logging to that level and the logic is already in place to support troubleshooting.
 
@@ -723,7 +725,7 @@ But, before using the getAttribute method on the manager variable you should che
 
 When your code will modify IdentityIQ objects, object locking is important for ensuring that multiple processes don’t try to update the same object at the same time. There are two types of locks used in IdentityIQ – persistent and transaction.
 
-[sen-rohit90/SystemDesign: Notes and Codes for System Design (github.com)](https://github.com/sen-rohit90/SystemDesign)
+![Persistent vs Transactional](https://github.com/sen-rohit90/SystemDesign/blob/main/IIQEngineerCertification/img/Persistent%20vs%20Transaction%20Locks.JPG)
 
   
 
@@ -878,17 +880,17 @@ The sailpoint.api.Meter class lets you collect statistics about execution timing
 
   
 
-import sailpoint.api.Meter;
-
-//Begin your code
-
-Meter.enterByName("MyMeter");
-
-//Do work
-
-Meter.exitByName("MyMeter");
-
-//End of code
+    import sailpoint.api.Meter;
+    
+    //Begin your code
+    
+    Meter.enterByName("MyMeter");
+    
+    //Do work
+    
+    Meter.exitByName("MyMeter");
+    
+    //End of code
 
   
 
@@ -905,6 +907,7 @@ You can also view the stats on the Call Timings page. To access the page, go to 
 
 
 **Quiz**
+
 **Which of these is the best choice for logging in BeanShell rules, giving you the most granular control on when and where the system writes messages to your log files?**
 
 Define a custom logger in your rule and configure its log level in the Log4j properties file
@@ -942,5 +945,4 @@ SUBMIT
   
 
 Correct
-
 
