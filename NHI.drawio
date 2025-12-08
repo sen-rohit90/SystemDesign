@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="Page-1" id="1uA4Dh3htEokbfIt7jCo">
+    <mxGraphModel dx="2572" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-6" edge="1" parent="1" source="eVkJZyN13utvrmAw-4FJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eVkJZyN13utvrmAw-4FJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-7" connectable="0" parent="eVkJZyN13utvrmAw-4FJ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SSO / Federated" vertex="1">
+          <mxGeometry relative="1" x="-0.3" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-1" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="-30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NHI Integration" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-9" edge="1" parent="1" source="eVkJZyN13utvrmAw-4FJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eVkJZyN13utvrmAw-4FJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="ITSM" vertex="1">
+          <mxGeometry height="80" width="80" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-17" edge="1" parent="1" source="eVkJZyN13utvrmAw-4FJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eVkJZyN13utvrmAw-4FJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-48" edge="1" parent="1" source="eVkJZyN13utvrmAw-4FJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="eVkJZyN13utvrmAw-4FJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1055" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="IIQ" vertex="1">
+          <mxGeometry height="80" width="80" x="1015" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ID:&amp;nbsp;&lt;br&gt;Owner&quot;&amp;nbsp;&lt;br&gt;Application / Connector :&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="120" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="POST /users" vertex="1">
+          <mxGeometry height="70" width="120" x="305" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway" vertex="1">
+          <mxGeometry height="100" width="20" x="440" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="POST /users" vertex="1">
+          <mxGeometry height="70" width="120" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cloud App" vertex="1">
+          <mxGeometry height="80" width="120" x="1415" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-16" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="On Prem" vertex="1">
+          <mxGeometry height="80" width="80" x="1435" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-18" parent="1" style="triangle;whiteSpace=wrap;html=1;" value="IP Filtering" vertex="1">
+          <mxGeometry height="50" width="20" x="1338" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Logic Layer" vertex="1">
+          <mxGeometry height="80" width="80" x="940" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-45" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eVkJZyN13utvrmAw-4FJ-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="640" />
+              <mxPoint x="1165" y="640" />
+            </Array>
+            <mxPoint x="1015.0588235294122" y="409.99999999999955" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NHI Created as Identity Object in IIQ&lt;br&gt;~-appname-username" vertex="1">
+          <mxGeometry height="70" width="160" x="935" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-24" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Owner" vertex="1">
+          <mxGeometry height="60" width="30" x="805" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-46" edge="1" parent="1" source="eVkJZyN13utvrmAw-4FJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eVkJZyN13utvrmAw-4FJ-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1145" y="390" />
+              <mxPoint x="1265" y="390" />
+              <mxPoint x="1265" y="780" />
+              <mxPoint x="1165" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-47" connectable="0" parent="eVkJZyN13utvrmAw-4FJ-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Password Rotation / Safes" vertex="1">
+          <mxGeometry relative="1" x="0.017" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NHI Created as Identity Object in IIQ&lt;br&gt;~-appname-username" vertex="1">
+          <mxGeometry height="70" width="160" x="1065" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-31" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Mover" vertex="1">
+          <mxGeometry height="60" width="120" x="725" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-32" edge="1" parent="1" source="eVkJZyN13utvrmAw-4FJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eVkJZyN13utvrmAw-4FJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-33" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Access Certification" vertex="1">
+          <mxGeometry height="90" width="140" x="685" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-34" parent="eVkJZyN13utvrmAw-4FJ-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 1" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-35" parent="eVkJZyN13utvrmAw-4FJ-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 2" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-37" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Leaver" vertex="1">
+          <mxGeometry height="60" width="120" x="875" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-43" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CyberArk" vertex="1">
+          <mxGeometry height="80" width="80" x="1125" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-49" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="619" y="910" as="sourcePoint" />
+            <mxPoint x="620.0000000000001" y="-85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-50" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1320" y="900" as="sourcePoint" />
+            <mxPoint x="1314" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-51" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="100" width="50" x="195" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Approvals&lt;br&gt;Request Source" vertex="1">
+          <mxGeometry height="70" width="120" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Policy Engine" vertex="1">
+          <mxGeometry height="70" width="120" x="790" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="421.0000000000001" y="-132.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cloud Perimeter Zone" vertex="1">
+          <mxGeometry height="70" width="120" x="490" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cloud Operations Zone" vertex="1">
+          <mxGeometry height="70" width="120" x="1150" y="-45" as="geometry" />
+        </mxCell>
+        <mxCell id="eVkJZyN13utvrmAw-4FJ-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h3 data-start=&quot;3014&quot; data-end=&quot;3052&quot;&gt;í ½í·£ &lt;strong data-start=&quot;3021&quot; data-end=&quot;3052&quot;&gt;Architect-Level Explanation&lt;/strong&gt;&lt;/h3&gt;&lt;br&gt;&lt;blockquote data-start=&quot;3054&quot; data-end=&quot;4412&quot;&gt;&lt;br&gt;&lt;p data-start=&quot;3056&quot; data-end=&quot;3164&quot;&gt;â€œOur Non-Human Identity lifecycle begins in the ITSM system, which acts as the request and approval layer.&lt;/p&gt;&lt;p data-start=&quot;3056&quot; data-end=&quot;3164&quot;&gt;Human owners authenticate into ITSM using &lt;strong data-start=&quot;422&quot; data-end=&quot;460&quot;&gt;SSO / federation via Ping Identity&lt;/strong&gt;, ensuring strong authentication, MFA, and centralized access policies. This guarantees that only authorized application owners can request creation, modification, or decommissioning of NHIs.&lt;/p&gt;&lt;p data-start=&quot;3171&quot; data-end=&quot;3387&quot;&gt;Once approved, ITSM sends a POST /users call to our API Gateway in the Cloud Perimeter Zone. The Gateway enforces authentication, schema validation, throttling, and introduces a trust boundary between ITSM and IIQ.&lt;/p&gt;&lt;br&gt;&lt;p data-start=&quot;3394&quot; data-end=&quot;3591&quot;&gt;From there, the request flows into SailPoint IIQ in the Cloud Operations Zone, which acts as the authoritative store for NHIs. IIQ creates the NHI identity object and triggers provisioning rules.&lt;/p&gt;&lt;br&gt;&lt;p data-start=&quot;3598&quot; data-end=&quot;3780&quot;&gt;Credentials for NHIs are never generated inside IIQ. Instead, IIQ calls CyberArk via API to create a privileged account, store the secret, and rotate it as per enterprise policies.&lt;/p&gt;&lt;br&gt;&lt;p data-start=&quot;3787&quot; data-end=&quot;4082&quot;&gt;For native provisioning, IIQ connects to cloud apps through the Perimeter Zoneâ€”outbound traffic is routed through Zscaler Internet Access to enforce secure egress. For SaaS platforms that support private endpoints, we use PrivateLink to ensure the traffic doesnâ€™t traverse the public internet.&lt;/p&gt;&lt;br&gt;&lt;p data-start=&quot;4089&quot; data-end=&quot;4246&quot;&gt;Access certifications are assigned to the NHI owner, and mover/leaver events in IIQ trigger re-validation or decommissioning of the NHI across all systems.&lt;/p&gt;&lt;br&gt;&lt;p data-start=&quot;4253&quot; data-end=&quot;4412&quot;&gt;This architecture ensures that NHI creation, provisioning, secrets handling, and lifecycle governance are fully standardized, audited, and zero-trust aligned.â€&lt;/p&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="680" width="570" x="1670" y="-100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
