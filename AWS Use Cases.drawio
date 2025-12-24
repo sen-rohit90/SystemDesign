@@ -1,0 +1,274 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="XKtHAIykRwHZak5hScVD">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="260" width="280" x="670" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Physical servers are capable of running multiple Virtual Machine" vertex="1">
+          <mxGeometry height="90" width="200" x="180" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Physical Data Center" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Physical DC Problems&lt;/h1&gt;&lt;p&gt;- no elasticity&lt;br&gt;- when workload increases, need to buy additional ESXi (physical servers)&amp;nbsp;&lt;br&gt;- pay for the additional licensing&lt;br&gt;- who knows, change in demand may not last that long&lt;br&gt;- end up making a long term investment to solve a short term problem&lt;/p&gt;" vertex="1">
+          <mxGeometry height="250" width="170" x="760" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500" y="520" as="sourcePoint" />
+            <mxPoint x="500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="When load increases" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Initial State" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Later State" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Procurement of new additional physical servers are required" vertex="1">
+          <mxGeometry height="90" width="200" x="500" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="135" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="285" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="135" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Physical Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="285" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Physical servers are capable of running multiple Virtual Machine" vertex="1">
+          <mxGeometry height="90" width="200" x="175" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Physical Data Center" vertex="1">
+          <mxGeometry height="30" width="60" x="245" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="495" y="1030" as="sourcePoint" />
+            <mxPoint x="495" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="When load increases" vertex="1">
+          <mxGeometry height="30" width="60" x="465" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Initial State" vertex="1">
+          <mxGeometry height="30" width="60" x="75" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Later State" vertex="1">
+          <mxGeometry height="30" width="60" x="525" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Deploy new virtual servers on the cloud" vertex="1">
+          <mxGeometry height="90" width="200" x="495" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-34" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="AWS" vertex="1">
+          <mxGeometry height="80" width="120" x="560" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-35" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Solving Physical DC Problems&lt;/h1&gt;&lt;p&gt;- elasticity&lt;br&gt;- when workload increases, need to deploy new virtual servers on the cloud&lt;br&gt;- pay for the additional licensing&lt;br&gt;- change in demand may not last that long, so scale down&lt;br&gt;- end up making a relevant investment to solve a short term problem&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Hybrid cloud setup : still utilising on prem DC, always taking advantage of cloud resources&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="330" width="200" x="780" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hybrid Cloud / Datacenter Reduction" vertex="1">
+          <mxGeometry height="60" width="245" x="435" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ESXi Host" vertex="1">
+          <mxGeometry height="120" width="120" x="235" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Traditionally backups would be performed within the DC and then move them offsite, historically done via tapes" vertex="1">
+          <mxGeometry height="90" width="200" x="200" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Physical Data Center" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-44" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="1740" as="sourcePoint" />
+            <mxPoint x="520" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="backup" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Initial State" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Later State" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Tapes" vertex="1">
+          <mxGeometry height="90" width="200" x="570" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backup - Hybrid Cloud - Use Case" vertex="1">
+          <mxGeometry height="60" width="245" x="410" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-53" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.tape;pointerEvents=1" value="" vertex="1">
+          <mxGeometry height="12" width="30" x="640" y="1564" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Offfsite" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ESXi Host" vertex="1">
+          <mxGeometry height="140" width="120" x="245" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Storage GW VM, is a virtual appliance on premises" vertex="1">
+          <mxGeometry height="90" width="200" x="210" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Physical Data Center" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-58" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="2250" as="sourcePoint" />
+            <mxPoint x="530" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="backup" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Initial State" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Later State" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AWS" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-69" edge="1" parent="1" source="L1PaPpf7eiqVcxNEqi7a-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="L1PaPpf7eiqVcxNEqi7a-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="2170" />
+              <mxPoint x="500" y="2170" />
+              <mxPoint x="500" y="2079" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Storage Gateway VM" vertex="1">
+          <mxGeometry height="50" width="65" x="275" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-67" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Storage" vertex="1">
+          <mxGeometry height="60" width="60" x="405" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-68" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.simple_storage_service_directory_bucket;" value="S3 or Glacier" vertex="1">
+          <mxGeometry height="78" width="75" x="660" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Backups taken on prem and immediately shifted to off site&lt;br&gt;- durable, reliable, inexpensive storage mechanism on cloud to store&lt;br&gt;- in case of disaster, all backups are available at AWS cloud&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="420" y="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Disaster Recovery- Hybrid Cloud - Use Case" vertex="1">
+          <mxGeometry height="60" width="365" x="455" y="2440" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="120" x="275" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="All these services run on on prem data center" vertex="1">
+          <mxGeometry height="90" width="200" x="240" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Primary Site" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-76" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="2960" as="sourcePoint" />
+            <mxPoint x="560" y="2660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AWS" vertex="1">
+          <mxGeometry height="30" width="60" x="680" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web Server" vertex="1">
+          <mxGeometry height="50" width="65" x="300" y="2725" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Backups taken on prem and immediately shifted to off site&lt;br&gt;- durable, reliable, inexpensive storage mechanism on cloud to store&lt;br&gt;- in case of disaster, all backups are available at AWS cloud&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="450" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App Server" vertex="1">
+          <mxGeometry height="50" width="65" x="300" y="2790" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Database" vertex="1">
+          <mxGeometry height="50" width="65" x="300" y="2850" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web AMI" vertex="1">
+          <mxGeometry height="50" width="65" x="710" y="2735" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App AMI" vertex="1">
+          <mxGeometry height="50" width="65" x="710" y="2800" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Create images of the virtual servers&lt;br&gt;- roll out identitcal servers on the cloud, in times of disaster&lt;br&gt;- sync the on prem database&lt;br&gt;- frpm images, very rapidly roll out new virtual servers, fire them up and simply re-point my DNS records via Route 53&lt;br&gt;- not not paying for any physical facility, not even running virtual servers, just got couple of images&amp;nbsp;&lt;br&gt;- so extremeely inexpensive&lt;br&gt;- and DB is continuosly syncronising - only bggest expense here on AWS" vertex="1">
+          <mxGeometry height="250" width="200" x="990" y="2740" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Database" vertex="1">
+          <mxGeometry height="50" width="65" x="740" y="2900" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Pilot Light Model" vertex="1">
+          <mxGeometry height="60" width="120" x="1230" y="2800" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-95" edge="1" parent="1" source="L1PaPpf7eiqVcxNEqi7a-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="L1PaPpf7eiqVcxNEqi7a-77" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="2875" as="sourcePoint" />
+            <mxPoint x="710" y="2885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="backup" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-97" edge="1" parent="1" source="L1PaPpf7eiqVcxNEqi7a-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" target="L1PaPpf7eiqVcxNEqi7a-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="608" y="2720" />
+              <mxPoint x="800" y="2720" />
+              <mxPoint x="800" y="2767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Route 53" vertex="1">
+          <mxGeometry height="40" width="65" x="575" y="2730" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-93" edge="1" parent="1" source="L1PaPpf7eiqVcxNEqi7a-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="L1PaPpf7eiqVcxNEqi7a-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Web Server" vertex="1">
+          <mxGeometry height="50" width="65" x="850" y="2735" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="App Server" vertex="1">
+          <mxGeometry height="50" width="65" x="850" y="2800" as="geometry" />
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-103" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="806.2999999999998" y="2860" as="sourcePoint" />
+            <mxPoint x="800" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1PaPpf7eiqVcxNEqi7a-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="only when required, are the virtual servers ever created" vertex="1">
+          <mxGeometry height="30" width="60" x="800" y="2610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
