@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="j_HN-bkl4W832Lwnn5DE">
-    <mxGraphModel>
+    <mxGraphModel dx="1425" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JcYTVvZCPqz7zNmrHnUS-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="EC2" vertex="1">
+          <mxGeometry height="50" width="90" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JcYTVvZCPqz7zNmrHnUS-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="- renting virtual servers on the AWS cloud&lt;div&gt;- create virtual machines that are going to run on physical hosts and hypervisors within the AWS data center&lt;/div&gt;&lt;div&gt;- IaaS - infra as a service : getting all the infra to run our own virtual servers&lt;/div&gt;&lt;div&gt;- we are incharge of doing patching, managing OS, installing apps, doing updates&lt;/div&gt;&lt;div&gt;- data is stored on EBS volumes (Elastic Block Store). Think of volumes as disks of computer which stores all data, apps, OS. So EC2 needs storage capacity - called as EBS&lt;/div&gt;&lt;div&gt;- EC2 is Unmanaged Servce&lt;/div&gt;&lt;div&gt;- You start by choosing AMI (Operating System)&lt;/div&gt;&lt;div&gt;- You choose resources ( CPU, memory, network)&lt;/div&gt;&lt;div&gt;- Diff prices for diff instance types&lt;/div&gt;&lt;div&gt;- when a EC2 is creatd, it is specific to one AZ (Availability Zone)&lt;/div&gt;&lt;div&gt;-&amp;nbsp;A hypervisor, or Virtual Machine Monitor (VMM), is software that creates and runs multiple Virtual Machines (VMs) on a single physical computer, acting as a manager that allocates shared hardware resources (CPU, RAM, storage) to each isolated VM, allowing different operating systems to run concurrently and efficiently, forming the foundation of cloud computing and server consolidation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="420" width="440" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JcYTVvZCPqz7zNmrHnUS-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="VPC&lt;div&gt;- logical Data center&lt;/div&gt;&lt;div&gt;- can span multiple AZ&lt;/div&gt;&lt;div&gt;- good for separate public and private resources&lt;/div&gt;&lt;div&gt;- create a VPN between your data center and your VPC&lt;/div&gt;&lt;div&gt;- Direct Connect can be used to prove a dedicated connection to your data center&lt;/div&gt;" vertex="1">
+          <mxGeometry height="460" width="440" x="80" y="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
